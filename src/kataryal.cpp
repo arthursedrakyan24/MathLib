@@ -1,7 +1,4 @@
-#include <iostream>
-#include <cmath>
-
-using namespace std;
+#include "mainlib.hpp"
 
 bool ideal(int x){
 	int y=0;

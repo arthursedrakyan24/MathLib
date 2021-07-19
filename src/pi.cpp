@@ -1,8 +1,4 @@
-#include <iostream> 
-#include <cmath>
-#include <cassert>
-
-using namespace std;
+#include "mainlib.hpp"
 
 long double pi(int accuracy){
 	long double x=1, k=-1, result=0;

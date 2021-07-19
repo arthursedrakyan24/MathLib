@@ -1,29 +1,26 @@
-#include <iostream>
-#include <cmath>
+#include "mainlib.hpp"
 
-using namespace std;
-
-int size_ofY(int z){
+int size_ofarr(int z){
 	int j=0;
-	while(z>=8){
+	while(z>=2){
 		j+=1;
-		z/=8;
+		z/=2;
 		}
 	return (j+1);
 }
-int oct(int x){
+int bin(int x){
 	int f=x;
-	int j=size_ofY(x);
+	int j=size_ofarr(x);
 	int sum=0;
 	int y[j];
 	int i=0;
-	while(x>=8){
-		y[i]=x%8;
-		x/=8;
+	while(x>=2){
+		y[i]=x%2;
+		x/=2;
 		i+=1;
 	}
 	y[j-1]=x;
-	if(f>7){
+	if(f>1){
 		for(int i=j-1; i>=0; i--){
 			sum+=pow(10,j-1)*y[i];
 			j--;

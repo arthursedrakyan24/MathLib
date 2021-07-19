@@ -1,8 +1,4 @@
-#include <iostream> 
-#include <cmath>
-#include <cassert>
-
-using namespace std;
+#include "mainlib.hpp"
 
 long double factorial_e (int n){
 	long double pat = 1;

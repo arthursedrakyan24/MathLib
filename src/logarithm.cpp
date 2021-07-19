@@ -1,8 +1,4 @@
-#include <iostream>
-#include <cmath>
-#include <cassert>
-
-using namespace std;
+#include "mainlib.hpp"
 
 double long log(double long a, double long base){
 

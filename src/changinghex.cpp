@@ -1,9 +1,4 @@
-#include <iostream>
-#include <cmath>
-#include <cstring>
-#include <cassert>
-
-using namespace std;
+#include "mainlib.hpp"
 
 int size_of_hex(int z){
 	int j=0;

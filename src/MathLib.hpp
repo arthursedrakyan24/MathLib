@@ -1,7 +1,4 @@
-#include <iostream>
-#define cmath
-
-using namespace std;
+#include "mainlib.hpp"
 
 int oct(int);
 int bin(int);

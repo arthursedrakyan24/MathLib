@@ -1,11 +1,9 @@
-export EXE := test
-export C_FILES := $(wildcard *.cpp)
-export O_FILES := $(patsubst %.cpp, %.o, $(C_FILES))
+all:
+	mkdir bin/
+	cd src/ && make
+	cd src/ && make clean
+clean:
+	rm -r bin/
 
-$(EXE) : $(O_FILES)
-	g++ $^ -o $@
-%.o : %.cpp
-	g++ -c $^ -o $@
-clean :
-	rm *.o 
-
+run:
+	cd bin && ./test

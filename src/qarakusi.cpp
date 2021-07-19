@@ -1,7 +1,4 @@
-#include <iostream>
-#include <cassert>
-
-using namespace std;
+#include "mainlib.hpp"
 
 double sroot(double x){
 	double y;

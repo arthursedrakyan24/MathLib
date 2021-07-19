@@ -1,7 +1,4 @@
-#include <iostream>
-#include <cassert>
-
-using namespace std;
+#include "mainlib.hpp"
 
 double croot(double x){
 	double y;
